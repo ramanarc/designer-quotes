@@ -12,15 +12,14 @@
 html, body {
   font-family: 'Spectral', serif;
   font-size: 16px;
-  box-sizing: border-box;
-  color: #fff;
-  background-color: #6D28D9;
-}
-
-body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #fff;
+  background: #1D4ED8;
+  transition: background-color 0.5s ease;
 }
+
 
 img, picture, video, canvas, svg {
   display: block;
@@ -45,7 +44,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 86vh;
+  min-height: 100vh;
 }
 
 section{
@@ -56,10 +55,7 @@ section{
 
 footer{
   padding: 40px;
-}
-
-.btn-group{
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -69,3 +65,13 @@ h1{
   font-weight: 500;
   font-style: italic;
 }
+
+button{
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
